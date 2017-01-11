@@ -6,7 +6,7 @@ import { Ion } from '../ion';
 import { isTrueProperty } from '../../util/util';
 import { initEvents } from './swiper/swiper-events';
 import { initZoom } from './swiper/swiper-zoom';
-import { Platform } from '../../platform/platform';
+import { Plaatform } from '../../platform/platform';
 import { SlideContainer, SlideElement, SlideTouchEvents, SlideTouches, SlideZoom } from './swiper/swiper-interfaces';
 import { slideTo, slideNext, slidePrev, update, initSwiper, destroySwiper, startAutoplay, stopAutoplay } from './swiper/swiper';
 import { SWIPER_EFFECTS } from './swiper/swiper-effects';
